@@ -51,13 +51,15 @@ body {
     border-radius: 50px;
     padding: 15px 32px;
     margin-top: 23px;
+    border: 2px solid white;
+    transition: background-color .3s ease-in;
 }
 
 .card__btn:hover {
     border: 2px solid var(--transparent-white);
     color: var(--transparent-white);
     background-color: transparent;
-    padding: 13px 32px;
+    transition: background-color .3s ease-out;
 }
 
 .card-sedans {
