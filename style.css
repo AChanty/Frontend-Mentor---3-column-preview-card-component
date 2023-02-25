@@ -20,18 +20,12 @@ body {
     margin: 30px auto;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card__item {
     padding: 50px;
-}
-
-.card__item:first-child {
-    border-radius: 10px 10px 0 0;
-}
-
-.card__item:last-child {
-    border-radius: 0 0 10px 10px;
 }
 
 .card__item h2 {
@@ -123,13 +117,5 @@ body {
 
     .card__btn {
         margin-top: 80px;
-    }
-
-    .card__item:first-child {
-        border-radius: 10px 0 0 10px;
-    }
-
-    .card__item:last-child {
-        border-radius: 0 10px 10px 0;
     }
 }
